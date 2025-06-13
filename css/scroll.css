@@ -1,0 +1,12 @@
+html body {
+  height: 500vh;
+  background: #000;
+}
+html body canvas {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  max-height: 100vh;
+}/*# sourceMappingURL=scroll.css.map */
