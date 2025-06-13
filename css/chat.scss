@@ -1,0 +1,28 @@
+* {
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box; outline:0;
+}
+html{
+    body{
+        .open-button{
+            background-color: #555; color:white; padding:16px 20px;
+            cursor:pointer; opacity: .8; position: fixed; bottom:23px;
+            right:28px; width:280px;
+        }
+        .chat-popup{
+        z-index:9; position:fixed; bottom:0; right:15px; display:none;
+        border:3px solid #f1f1f1;
+            .form-container{
+             max-width:300px; padding:10px; background-color: white;   
+                textarea{
+width:100%; padding:15px; margin:5px 0 22px 0; border:none; background: #f1f1f1; resize:none;
+                }
+                .btn{background-color: #8eccb5; color:black; padding:16px 20px; border:none; cursor:pointer; width:100%; margin-bottom:10px; opacity:.8;}
+            .cancel{background-color: red !important; color:white !important;}
+            .btn:hover, .open-button:hover{
+                opacity: 1;
+            }    
+        }
+        }
+    }
+}
